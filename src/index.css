@@ -1,0 +1,14 @@
+:root {
+  background-color: #eef5ff;
+}
+
+html, body {
+  background: #eef5ff !important;
+  margin: 0;
+  padding: 0;
+}
+
+#root {
+  background: #eef5ff;
+  min-height: 100vh;
+}
