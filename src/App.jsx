@@ -1,36 +1,23 @@
 
-import UserCard from "./component/UserCard";
-import "./App.css";
+// import Header from './component/Header'
+import LikeButton from './component/LikeButton'
+// import ProfileCard from './component/ProfileCard'
+// import Footer from './component/Footer'
+import './App.css'
 
 function App() {
   return (
-    <div className="app">
-      <h1>Employee Details</h1>
+    <div className="page">
+      {/* <Header /> */}
 
-      <div className="card-container">
-        <UserCard
-          name="Mayank Panse"
-          age={22}
-          city="Bhopal"
-          profession="Frontend Developer"
-        />
+      <main className="main-content">
+        {/* <ProfileCard /> */}
+        <LikeButton />
+      </main>
 
-        <UserCard
-          name="Aman verma"
-          age={25}
-          city="Indore"
-          profession="UI Designer"
-        />
-
-        <UserCard
-          name="Rohit sharma"
-          age={28}
-          city="Delhi"
-          profession="Backend Developer"
-        />
-      </div>
+      {/* <Footer /> */}
     </div>
-  );
+  )
 }
 
-export default App;
+export default App

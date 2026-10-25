@@ -1,0 +1,28 @@
+
+.like-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.like-button {
+  background: transparent;
+  border: none;
+  color: #555;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.like-button.liked {
+  color: #1877f2;
+}
+
+.like-container h3 {
+  margin: 0;
+  font-size: 22px;
+}
+
+button i {
+  font-size: 40px;
+  cursor: pointer;
+}
